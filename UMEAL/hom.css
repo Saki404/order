@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+header{
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    z-index: 3;
+    /* margin-bottom: 5rem; */
+}
+.log{
+    width: 10rem;
+    padding: 15px;
+}
+.log:hover{
+    cursor: pointer;
+}
+.view{
+    width: 10%;
+    /* border: 5px solid wheat; */
+    text-align: center;
+    padding: 1rem;
+}
+.view a{
+   width: 10px;
+}
+.view a:hover{
+    cursor: pointer;
+}
+.icon{
+    width: 50px;
+}
+.container{
+    width: 100%;
+    display: flex;
+
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    width: 100%;
+    padding:1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: fixed;
+    /* background-color:#f30a12; */
+    z-index: 2;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav ul li a{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav ul li a:hover{
+    transition: 0.2s;
+    color: rgba(66, 64, 64, 0.76);
+}
+.landingpage{
+    width: 100%;
+    padding: 15px;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.headtext{
+    text-align: center;
+    color: #004282;
+    font-size: 25px;
+    font-family: 'poppins';
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.airtimeslot{
+    display: flex;
+    /* flex-direction: row; */
+    justify-items: center;
+    text-align: center;
+    align-self: center;
+    /* border: 2px solid red; */
+    padding: 0px;
+    width: 100%;
+}
+.card1{
+    width: 18%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+    justify-content: center;
+    padding: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 1px #004282;
+}
+.tran{
+    margin-bottom: 50px;
+    padding: 5px;
+}
+.deliv{
+    margin-bottom: 35px;
+    padding: 5px;
+}
+.qrillus{
+    margin-bottom: 3px;
+    padding: 5px;
+}
+.card1 h5{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+@media screen and (min-width: 400px) {
+   
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    font-size: 16px; /* Set a default font size */
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    z-index: 3;
+}
+
+.log {
+    width: 10rem;
+    padding: 15px;
+}
+
+.log:hover {
+    cursor: pointer;
+}
+
+.view {
+    width: 10%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.view a {
+    width: 10px;
+}
+
+.view a:hover {
+    cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: fixed;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    color: rgba(66, 64, 64, 0.76);
+}
+
+.landingpage {
+    width: 100%;
+    padding: 15px;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headtext {
+    text-align: center;
+    color: #004282;
+    font-size: 25px;
+    font-family: 'poppins';
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.airtimeslot {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width: 100%;
+}
+
+.card1 {
+    width: 90%; 
+    background-color: rgb(243, 240, 240);
+    justify-content: center;
+    padding: 15px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 1px #004282;
+}
+
+.card-3{
+    width: 80%; 
+    background-color: rgb(243, 240, 240);
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 1px #004282;   
+}
+
+.tran,
+.deliv,
+.qrillus {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.card1 h5 {
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width:760px){
+ 
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    z-index: 3;
+}
+
+.log {
+    width: 10rem;
+    padding: 15px;
+}
+
+.log:hover {
+    cursor: pointer;
+}
+
+.view {
+    width: 10%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.view a {
+    width: 10px;
+}
+
+.view a:hover {
+    cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+}
+
+.container {
+    width: 100%;
+}
+
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    position: fixed;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a:hover {
+    transition: 0.2s;
+    color: rgba(66, 64, 64, 0.76);
+}
+
+.landingpage {
+    width: 100%;
+    padding: 15px;
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headtext {
+    text-align: center;
+    color: #004282;
+    font-size: 25px;
+    font-family: 'poppins';
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.airtimeslot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.card1 {
+    width: 100%;
+    background-color: rgb(243, 240, 240);
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 1px #004282;
+}
+
+.tran,
+.deliv,
+.qrillus {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.card1 h5 {
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 18px;
+}
+}
+
+
+@media only screen and (min-width: 760px){
+
+    body {
+        font-size: 18px;
+        width: 78%;
+    }
+
+    nav ul li a {
+        margin-left: 20px;
+        margin-right: 20px;  
+    }
+
+    .landingpage {
+        margin-top: 8rem;  
+    }
+
+    .card1 {
+        margin: 20px;            
+    }
+
+    .landingpage {
+        width: 100%;
+        padding: 15px;
+        margin-top: 12rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .headtext {
+        text-align: center;
+        color: #004282;
+        font-size: 25px;
+        font-family: 'poppins';
+        padding: 15px;
+        padding-left:10px;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .airtimeslot {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+       margin-left: 170px;
+    }
+    
+    .card1 {
+        width: 30%;
+        background-color: rgb(243, 240, 240);
+        justify-content: center;
+        padding: 15px;
+        margin: 10px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 50px;
+        box-shadow: 2px 2px 2px 1px #004282;
+    }
+
+    .card-3{
+        width: 30%; 
+        background-color: rgb(243, 240, 240);
+        justify-content: center;
+        padding: 50px;
+        margin: 0px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 50px;
+        box-shadow: 2px 2px 2px 1px #004282;  
+    
+    .tran,
+    .deliv,
+    .qrillus {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    
+    .card1 h5 {
+        font-family: 'poppins';
+        text-align: center;
+        font-size: 18px;
+    }
+}
